@@ -1,0 +1,19 @@
+include header
+include nav
+.jumbotron.text-align-center.large(ng-controller="HelloController as cont")
+    br
+    br
+    h1(style="font-size: 7rem;") Template
+    h2 It's lit
+.jumbotron.text-align-center.large(style="background-color: white")
+    form.col-lg-4.offset-lg-4(ng-controller="HelloController as cont")
+        .form-group
+            label(for='exampleInputEmail1') Email address
+            input#exampleInputEmail1.form-control(ng-model="mailLogin", type='email', aria-describedby='emailHelp', placeholder='Enter email')
+        .form-group
+            label(for='exampleInputPassword1') Password
+            input#exampleInputPassword1.form-control(ng-model="passLogin", type='password', placeholder='Password')
+        button.btn.btn-primary(type='submit', ng-click='cont.login()') Login
+
+
+include footer

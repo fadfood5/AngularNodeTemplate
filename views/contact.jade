@@ -1,0 +1,15 @@
+include header
+include nav
+.jumbotron
+    br
+    br
+    form.col-md-5.contact(action='/contact', method='post')
+        p
+            input.form-control#yourname(type='text', placeholder='Full Name', name='name')
+        p
+            input.form-control#youremail(type='email', placeholder='E-mail', name='email')
+        p
+            textarea.form-control#yourmessage(type='text', placeholder='Message', name='message')
+        p
+            input.form-control.btn-success(type='submit', value='Send')
+include footer

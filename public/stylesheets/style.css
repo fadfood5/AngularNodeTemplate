@@ -1,0 +1,237 @@
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*Personal CSS*/
+
+body {
+    font: 1rem "Abel", Helvetica, Arial, sans-serif;
+    background-color: #fff;
+}
+
+a {
+    color: #00B7FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.contact {
+    margin: 0 auto;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.large {
+    font-size: 24px;
+}
+
+ul {
+    font-size: 30;
+    font-weight: bold;
+}
+
+li {
+    font-size: 24;
+    font-weight: normal;
+}
+
+.container .row {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.row .col.s12 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col {
+    float: left;
+    box-sizing: border-box;
+    padding: 0 0.75rem;
+}
+
+.card-panel {
+    transition: box-shadow .25s;
+    padding: 20px;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.white {
+    background-color: #FFFFFF !important;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.white-text {
+    color: #FFFFFF !important;
+}
+
+.card-container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+}
+
+.row .col.m4 {
+    width: 33.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.light {
+    font-weight: 300;
+}
+
+#bluediv {
+    width: 100%;
+    background-color: #00bfff;
+}
+
+#blueit {
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+
+#blueit2 {
+    padding-top: 30px;
+}
+
+.footerText {
+    color: white;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav li {
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+.contact p {
+    padding: 10px;
+}
+
+table {
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 640px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td, th {
+    border: 1px solid transparent;
+    /* No more visible border */
+    height: 30px;
+    transition: all 0.3s;
+		text-align: center;
+    /* Simple transition for hover effect */
+		padding-left: 3px;
+		padding-right: 3px;
+}
+
+th {
+    background: #DFDFDF;
+    /* Darken header a bit */
+    font-weight: bold;
+		padding-left: 15px;
+		padding-right: 15px;
+}
+
+td {
+    background: #FAFAFA;
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background: #F1F1F1;
+}
+
+tr:nth-child(odd) td {
+    background: #FEFEFE;
+}
+
+/*tr:hover {
+    background: #666;
+    color: #FFF;
+}*/
+.centerLi{
+	display:table;
+  margin:0px auto 0px auto;
+}
+
+.clearLink {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+.clearLink:hover{
+	color: grey;
+}
+.paddCard{
+}
+footer{
+	background-color: #333;
+	color: white;
+}
+.closeButton{
+  background-color: rgba(0, 0, 0, 0);
+}

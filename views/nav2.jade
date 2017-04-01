@@ -1,0 +1,16 @@
+body(ng-app="App")
+    nav#nav.navbar.fixed-top.mainbody.footerText
+        ul.hidden-md-down(ng-controller="HelloController as cont")
+            li.active
+                a.clearLink(href='/home') Home
+            li.active
+                a.clearLink(ng-click='cont.logout()', href="") Logout
+        button.navbar-toggler.hidden-lg-up(type='button', data-toggle='collapse', data-target='#nav-content', style='float: left; background-color: white; outline: none')
+            | ☰
+        #nav-content.collapse.navbar-toggleable-sm(ng-controller="HelloController as cont")
+            ul
+                li.active.centerLi
+                    a.clearLink(href='/home') Time
+                br
+                li.centerLi
+                    a.clearLink(ng-click='cont.logout()') Logout
